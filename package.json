@@ -1,9 +1,11 @@
 {
   "name": "kyt-starter-static",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter kit for Taco projects",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "boo": "echo hoo"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nytimes/kyt-starter-static.git"
@@ -16,7 +18,13 @@
   "homepage": "https://github.com/nytimes/kyt-starter-static#readme",
   "kyt": {
     "version": "^0.2.0",
-    "files": ["kyt.config.js"]
+    "files": [
+      "kyt.config.js",
+      "boo.hoo"
+    ],
+    "scripts": [
+      "boo"
+    ]
   },
   "dependencies": {
     "enzyme": "^2.4.1",
@@ -24,7 +32,9 @@
     "react": "^15.3.0",
     "react-addons-test-utils": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-router": "^2.6.1"
+    "react-redux": "^5.0.2",
+    "react-router": "^2.6.1",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
     "kyt": "^0.3.0"
