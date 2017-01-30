@@ -34,7 +34,9 @@
     "react-dom": "^15.3.0",
     "react-redux": "^5.0.2",
     "react-router": "^2.6.1",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "taco-components": "0.0.5",
+    "taco-style": "^0.1.14"
   },
   "devDependencies": {
     "kyt": "^0.3.0"
