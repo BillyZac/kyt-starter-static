@@ -4,11 +4,11 @@
   "description": "A starter kit for Taco projects",
   "main": "index.js",
   "scripts": {
-    "boo": "echo hoo"
+    "dev": "kyt dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nytimes/kyt-starter-static.git"
+    "url": "git+https://github.com/BillyZac/kyt-starter-taco.git"
   },
   "author": "",
   "license": "Apache-2.0",
@@ -19,11 +19,9 @@
   "kyt": {
     "version": "^0.2.0",
     "files": [
-      "kyt.config.js",
-      "boo.hoo"
+      "kyt.config.js"
     ],
     "scripts": [
-      "boo"
     ]
   },
   "dependencies": {
