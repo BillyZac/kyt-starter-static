@@ -1,14 +1,14 @@
 
 import React from 'react';
-import { Paragraph } from 'taco-style';
 import { MenuItem } from 'taco-components';
+import styles from './styles.scss';
 
-function Home() {
+function Examples() {
   return (
     <section>
       <h1>Examples</h1>
-      
-      <p className={Paragraph}>
+
+      <p className={styles.paragraph}>
         This page shows how to use the stuff in the Taco Components package. See: <pre>src/components/Examples/</pre>
       </p>
 
@@ -21,4 +21,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Examples;

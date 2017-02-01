@@ -4,7 +4,8 @@
   "description": "A starter kit for Taco projects",
   "main": "index.js",
   "scripts": {
-    "dev": "kyt dev"
+    "dev": "kyt dev",
+    "test": "kyt test"
   },
   "repository": {
     "type": "git",
@@ -33,8 +34,7 @@
     "react-redux": "^5.0.2",
     "react-router": "^2.6.1",
     "redux": "^3.6.0",
-    "taco-components": "<2.0.0",
-    "taco-style": "^0.1.14"
+    "taco-components": "<2.0.0"
   },
   "devDependencies": {
     "kyt": "^0.3.0"
