@@ -11,7 +11,7 @@ Setting up a new project with all the stuff is a pain. This starter-kyt uses the
 3. Scaffold your project with this command: `node_modules/.bin/kyt setup -r https://github.com/BillyZac/kyt-starter-taco.git`
 4. Install dependencies: `npm install`
 5. Serve up some delicious Taco-flavored React code: `npm run dev`. This runs a dev server with hot-reloading. Yum!
-6. There's a list of handy commands in your new project's README.
+6. Check out the `scripts` in your `package.json` for more handy commands.
 
 ## Tools
 
