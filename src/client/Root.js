@@ -5,22 +5,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import browserHistory from 'react-router/lib/browserHistory';
 import routes from '../routes';
-
-const initialState = {
-  message: 'Click me.',
-}
-
-const reducer = (state = initialState, action) => {
-  switch (action.type) {
-    case 'UPDATE_MESSAGE': {
-      return { message: 'That was some Redux!' };
-      break;
-    }
-    default: {
-      return state;
-    }
-  }
-}
+import reducer from '../reducers';
 
 const store = createStore(reducer);
 
