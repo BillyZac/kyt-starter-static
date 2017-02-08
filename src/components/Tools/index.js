@@ -12,6 +12,9 @@ function Tools() {
         <a href="https://github.com/reactjs/react-router">React Router</a> - server and browser routing
       </li>
       <li className={styles.tool}>
+        <a href="http://redux.js.org/">Redux</a> - state management
+      </li>
+      <li className={styles.tool}>
         <a href="https://github.com/css-modules/css-modules">Sass Modules</a> - CSS Modules with a Sass pre-processor for styles
       </li>
       <li className={styles.tool}>
