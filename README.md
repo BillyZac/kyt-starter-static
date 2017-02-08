@@ -19,6 +19,7 @@ The following are some of the tools included in this starter-kyt:
 
 - [React](https://facebook.github.io/react/) - Component library
 - [React Router](https://github.com/reactjs/react-router) - Server and client routing
+- [Redux](http://redux.js.org/) - state management
 - [Sass Modules](https://github.com/css-modules/css-modules) - CSS Modules with a Sass pre-processor for styles
 - [Enzyme](https://github.com/airbnb/enzyme) - React component testing
 - [html webpack plugin](https://github.com/ampedandwired/html-webpack-plugin) - Builds a static html file
