@@ -1,3 +1,5 @@
-export const updateMessage = () => ({
-  type: 'UPDATE_MESSAGE'
-})
+const updateMessage = () => ({
+  type: 'UPDATE_MESSAGE',
+});
+
+export default updateMessage;

@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Link from 'react-router/lib/Link';
 import styles from './styles.scss';
-import { updateMessage } from '../../actions';
+import updateMessage from '../../actions';
 
 function App({ children, message, onMessageClick }) {
   return (
@@ -20,9 +20,14 @@ function App({ children, message, onMessageClick }) {
           <Link className={styles.link} to="/tools">Tools</Link>
         </li>
       </ul>
-      <div className={styles.message} onClick={() => onMessageClick()}>
+      <button
+        className={styles.message}
+        onClick={() => {
+          onMessageClick();
+        }}
+      >
         {message}
-      </div>
+      </button>
       <div className={styles.content}>
         {children}
       </div>
@@ -32,21 +37,19 @@ function App({ children, message, onMessageClick }) {
 
 App.propTypes = {
   children: PropTypes.node,
+  message: PropTypes.string,
+  onMessageClick: PropTypes.func,
 };
 
-const mapStateToProps = (state) => {
-  return {
-    message: state.message,
-  }
-}
+const mapStateToProps = state => ({
+  message: state.message,
+});
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onMessageClick: () => {
-      dispatch(updateMessage())
-    }
-  }
-}
+const mapDispatchToProps = dispatch => ({
+  onMessageClick: () => {
+    dispatch(updateMessage());
+  },
+});
 
 const ConnectedApp = connect(
   mapStateToProps,

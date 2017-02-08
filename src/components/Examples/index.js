@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { MenuItem } from 'taco-components';
-import styles from './styles.scss';
 import tacoStyle from 'taco-style/scss/main.scss';
+import styles from './styles.scss';
 
 
 function Examples() {

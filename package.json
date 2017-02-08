@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "kyt dev",
-    "test": "kyt test"
+    "test": "kyt test",
+    "lint": "kyt lint",
+    "lint-style": "kyt lint-style"
   },
   "repository": {
     "type": "git",
